@@ -45,6 +45,6 @@ int main(){
 
     printf("\nResultado: " );
     for(int i=0; i<Neq; i++){
-        printf("\nX%d = %f\n", i+1, resps[i]);
+        printf("\nx%d = %f", i+1, resps[i]);
     }
 }
